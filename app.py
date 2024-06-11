@@ -42,7 +42,7 @@ def getDict(htmlcontent) -> dict or None:
 
 #Variaveis de configuração
 url = "http://bianca.com/"
-host = ""
+host = "0.0.0.0"
 
 #Iniciando o Flask para a pagina da API
 app = Flask(__name__)
